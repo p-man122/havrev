@@ -36,6 +36,34 @@ const routes = [
     component: Client,
     layout: "/client"
   },
+  {
+    path: "/products",
+    name: "Messages",
+    icon: "ni ni-tv-2 text-primary",
+    component: Client,
+    layout: "/client"
+  },
+  {
+    path: "/products",
+    name: "Payments",
+    icon: "ni ni-tv-2 text-primary",
+    component: Client,
+    layout: "/client"
+  },
+  {
+    path: "/products",
+    name: "Transactions",
+    icon: "ni ni-tv-2 text-primary",
+    component: Client,
+    layout: "/client"
+  },
+  {
+    path: "/products",
+    name: "Settings",
+    icon: "ni ni-tv-2 text-primary",
+    component: Client,
+    layout: "/client"
+  },
 ]
 class Admin extends React.Component {
   componentDidUpdate(e) {

@@ -81,7 +81,7 @@ class Login extends React.Component {
         this.props.history.push('/admin/index');
       }else{
 
-        this.props.history.push('/client/index');
+        this.props.history.push('/client/products');
       }
 
     }else{
